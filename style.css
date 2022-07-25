@@ -1,0 +1,148 @@
+/*******
+Common
+********/
+
+body{
+    font-family: "monospace",'sans-serif';
+    padding:2%;
+
+}
+
+.font-primary{
+    color: #00abae;
+}
+.tile-icon{
+    font-size:20px;
+    font-weight: bold;
+}
+p{
+    font-size:1.8vw;
+}
+h2{
+    font-weight:bold;
+    font-size:2vw;
+    margin-bottom:20px;
+    text-align: center;
+}
+a.font-black{
+    color:#000 !important;
+
+}
+/******
+header part
+*****/
+.header {
+    display: flex;
+    padding-top: 10vw;
+    justify-content: space-evenly;
+    margin-bottom: 4vw;
+}
+.text {
+    padding-top: 9vw;
+    font-size: 1.5vw;
+}
+.text h5{
+    font-size: 3vw;
+}
+img.image {
+    border: 12px solid #00abae;
+    border-radius: 50%;
+    width: 36%;
+    height: 34vw;
+}
+/*********
+para
+*********/
+
+
+.para {
+    display: flex;
+    gap: 2%;
+    font-size: 4vw;
+}
+
+h3.skil {
+    margin-bottom: 3%;
+    font-size: 2vw;
+}
+h3.what {
+    font-size: 2vw;
+    margin-bottom: 2%;
+}
+
+h3.Twitter {
+    font-size: 2vw;
+}
+h3.Netflix {
+    font-size: 2vw;
+}
+h3.Hive {
+    font-size: 2vw;
+}
+
+h3.Hope {
+    font-size: 2vw;
+}
+a.website.link {
+    text-decoration: none;
+    background-color: #00abae;
+    padding: 2%;
+    font-size: 1.5vw;
+    border-radius: 4px;
+}
+a.github {
+    text-decoration: none;
+    background-color: #00abae;
+    padding: 2%;
+    font-size: 1.5vw;
+    border-radius: 4px;
+}
+
+.mid {
+    margin-bottom: 3vw;
+    margin-top: 3vw;
+}
+
+.icon-images {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-images img{
+    width: 7vw;
+}
+
+/*********
+project
+******/
+.project1 {
+    display: flex;
+    margin-bottom: 5vw;
+}
+img.image1 {
+    width: 35vw;
+}
+.project2 {
+    display: flex;
+    margin-bottom: 5vw;
+}
+img.image2 {
+    width: 35vw;
+}
+.project3 {
+    display: flex;
+    margin-bottom: 5vw;
+}
+img.image3 {
+    width: 35vw;
+}
+/**********
+extra
+*********/
+.bottom {
+    text-align: center;
+    padding-top: 4%;
+}
+
+footer.end {
+    text-align: center;
+}
